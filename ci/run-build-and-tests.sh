@@ -5,6 +5,8 @@
 
 . ${0%/*}/lib.sh
 
+export TEST_CONTRIB_TOO=yes
+
 case "$jobname" in
 fedora-breaking-changes-musl|linux-breaking-changes)
 	export WITH_BREAKING_CHANGES=YesPlease
